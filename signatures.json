@@ -1,0 +1,344 @@
+[
+  {
+    "name": "EICAR Test",
+    "signature": "X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!",
+    "family": "Test",
+    "tags": ["test", "harmless"]
+  },
+  {
+    "name": "NOP sled",
+    "signature": "\\x90\\x90\\x90\\x90",
+    "family": "Shellcode",
+    "tags": ["x86", "exploit"]
+  },
+  {
+    "name": "Keyboard Blocker",
+    "signature": "keyboard.block_key",
+    "family": "Keylogger",
+    "tags": ["keyboard", "keyblock"]
+  },
+  {
+    "name": "Dangerous File Deletion",
+    "signature": "os.remove",
+    "family": "Destructive",
+    "tags": ["delete", "filesystem"]
+  },
+  {
+    "name": "Windows Hook Injection",
+    "signature": "SetWindowsHookExW",
+    "family": "Injection",
+    "tags": ["hook", "injection", "windows"]
+  },
+  {
+    "name": "Fullscreen Behavior",
+    "signature": "fullscreen",
+    "family": "Stealth",
+    "tags": ["ui", "hijack"]
+  },
+  {
+    "name": "Window Close Interception",
+    "signature": "WM_DELETE_WINDOW",
+    "family": "Persistence",
+    "tags": ["window", "event"]
+  },
+  {
+    "name": "Startup Persistence",
+    "signature": "AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+    "family": "Persistence",
+    "tags": ["startup", "autostart"]
+  },
+  {
+    "name": "AES Encryption",
+    "signature": "AES",
+    "family": "Encryption",
+    "tags": ["crypto", "encrypt"]
+  },
+  {
+    "name": "Locked Indicator",
+    "signature": "locked",
+    "family": "Ransomware",
+    "tags": ["ransom", "status"]
+  },
+  {
+    "name": "CryptoKey Presence",
+    "signature": "CryptoKey",
+    "family": "Encryption",
+    "tags": ["crypto", "key"]
+  },
+  {
+    "name": "Registry Modification",
+    "signature": "registry.disable",
+    "family": "Persistence",
+    "tags": ["registry", "disable"]
+  },
+  {
+    "name": "AssemblyBuilder Usage",
+    "signature": "System.Reflection.Emit.AssemblyBuilder",
+    "family": ".NET Obfuscation",
+    "tags": ["dotnet", "obfuscation"]
+  },
+  {
+    "name": "Token Stealer",
+    "signature": "token.stealer",
+    "family": "Credential Theft",
+    "tags": ["token", "steal"]
+  },
+  {
+    "name": "Process Injection",
+    "signature": "Process Injection",
+    "family": "Injection",
+    "tags": ["process", "injection"]
+  },
+  {
+    "name": "Payload Dropper",
+    "signature": "payload.exe",
+    "family": "Dropper",
+    "tags": ["payload", "exe"]
+  },
+  {
+    "name": "Temp Malware Path",
+    "signature": "Data\\Local\\Temp\\malware",
+    "family": "Dropper",
+    "tags": ["temp", "malware"]
+  },
+  {
+    "name": "Base64 Decode",
+    "signature": "Base64Decode",
+    "family": "Obfuscation",
+    "tags": ["base64", "decode"]
+  },
+  {
+    "name": "PowerShell Invoke",
+    "signature": "PowerShell.Invoke",
+    "family": "Scripting",
+    "tags": ["powershell", "execution"]
+  },
+  {
+    "name": "Screen Capture",
+    "signature": "screen.capture",
+    "family": "Spyware",
+    "tags": ["screen", "spy"]
+  },
+  {
+    "name": "Clipboard Monitor",
+    "signature": "clipboard.spy",
+    "family": "Spyware",
+    "tags": ["clipboard", "stealer"]
+  },
+  {
+    "name": "Ransomware Flag",
+    "signature": "ransomware",
+    "family": "Ransomware",
+    "tags": ["ransom", "encrypt"]
+  },
+  {
+    "name": "Encrypt File Function",
+    "signature": "EncryptFile",
+    "family": "Encryption",
+    "tags": ["encrypt", "file"]
+  },
+  {
+    "name": "Malicious Command",
+    "signature": "malicious.command",
+    "family": "Command Execution",
+    "tags": ["command", "exec"]
+  },
+  {
+    "name": "Network Scanner",
+    "signature": "network.scan",
+    "family": "Reconnaissance",
+    "tags": ["network", "scan"]
+  },
+  {
+    "name": "Backdoor Signature",
+    "signature": "Backdoor.Win32",
+    "family": "Backdoor",
+    "tags": ["remote", "backdoor"]
+  },
+  {
+    "name": "Trojan Downloader",
+    "signature": "TrojanDownloader",
+    "family": "Trojan",
+    "tags": ["trojan", "download"]
+  },
+  {
+    "name": "Unauthorized Access Pattern",
+    "signature": "unauthorized.access",
+    "family": "Credential Theft",
+    "tags": ["unauthorized", "access"]
+  },
+  {
+    "name": "Credential Dumping",
+    "signature": "CredentialDumping",
+    "family": "Credential Theft",
+    "tags": ["dump", "credentials"]
+  },
+  {
+    "name": "Reverse Shell",
+    "signature": "reverse.shell",
+    "family": "Remote Control",
+    "tags": ["shell", "remote"]
+  },
+  {
+    "name": "Keystroke Logger",
+    "signature": "keystroke.logger",
+    "family": "Keylogger",
+    "tags": ["keylogger", "monitor"]
+  },
+  {
+    "name": "Port Scanner",
+    "signature": "port.scan",
+    "family": "Reconnaissance",
+    "tags": ["network", "scan"]
+  },
+  {
+    "name": "Botnet Command",
+    "signature": "botnet.command",
+    "family": "Botnet",
+    "tags": ["botnet", "command"]
+  },
+  {
+    "name": "Malware Injection",
+    "signature": "malware.inject",
+    "family": "Injection",
+    "tags": ["malware", "inject"]
+  },
+  {
+    "name": "Phishing Page",
+    "signature": "phishing.page",
+    "family": "Phishing",
+    "tags": ["phishing", "web"]
+  },
+  {
+    "name": "DLL Injection",
+    "signature": "DLLInjection",
+    "family": "Injection",
+    "tags": ["dll", "injection"]
+  },
+  {
+    "name": "XOR Encryption",
+    "signature": "xor.encrypt",
+    "family": "Obfuscation",
+    "tags": ["xor", "encrypt"]
+  },
+  {
+    "name": "Self Delete",
+    "signature": "self_delete",
+    "family": "Evasion",
+    "tags": ["delete", "evasion"]
+  },
+  {
+    "name": "Virus Launcher",
+    "signature": "virus.launcher",
+    "family": "Launcher",
+    "tags": ["launcher", "virus"]
+  },
+  {
+    "name": "Startup Modifier",
+    "signature": "startup.modify",
+    "family": "Persistence",
+    "tags": ["startup", "registry"]
+  },
+  {
+    "name": "Hook Handler",
+    "signature": "hook.handler",
+    "family": "Keylogger",
+    "tags": ["hook", "handler"]
+  },
+  {
+    "name": "Process Hollowing",
+    "signature": "process.hollowing",
+    "family": "Evasion",
+    "tags": ["hollowing", "injection"]
+  },
+  {
+    "name": "PowerShell Downloader",
+    "signature": "powershell.download",
+    "family": "Scripting",
+    "tags": ["powershell", "download"]
+  },
+  {
+    "name": "Malicious Payload",
+    "signature": "malicious.payload",
+    "family": "Payload",
+    "tags": ["payload", "malicious"]
+  },
+  {
+    "name": "Cryptocurrency Miner",
+    "signature": "crypto.miner",
+    "family": "Miner",
+    "tags": ["crypto", "miner"]
+  },
+  {
+    "name": "Exploit Kit",
+    "signature": "exploit.kit",
+    "family": "Exploit",
+    "tags": ["exploit", "kit"]
+  },
+  {
+    "name": "Remote Admin Tool",
+    "signature": "remote.admin.tool",
+    "family": "Remote Access",
+    "tags": ["remote", "rat"]
+  },
+  {
+    "name": "WMIC Payload",
+    "signature": "WMIC.payload",
+    "family": "Lateral Movement",
+    "tags": ["wmic", "payload"]
+  },
+  {
+    "name": "Admin Privilege Escalation",
+    "signature": "admin.elevation",
+    "family": "Privilege Escalation",
+    "tags": ["admin", "elevation"]
+  },
+  {
+    "name": "Debug Disabler",
+    "signature": "debug.disable",
+    "family": "Anti-Debugging",
+    "tags": ["debug", "disable"]
+  },
+  {
+    "name": "Vulnerability Scanner",
+    "signature": "vulnerability.scanner",
+    "family": "Reconnaissance",
+    "tags": ["scanner", "vuln"]
+  },
+  {
+    "name": "Dump Credentials",
+    "signature": "dump.credentials",
+    "family": "Credential Theft",
+    "tags": ["dump", "creds"]
+  },
+  {
+    "name": "Network Packet Monitor",
+    "signature": "network.packet",
+    "family": "Sniffer",
+    "tags": ["packet", "network"]
+  },
+  {
+    "name": "Shellcode Payload",
+    "signature": "shellcode",
+    "family": "Injection",
+    "tags": ["shellcode", "exec"]
+  },
+  {
+    "name": "PE Loader",
+    "signature": "PELoader",
+    "family": "Loader",
+    "tags": ["pe", "loader"]
+  },
+  {
+    "name": "Code Cave Presence",
+    "signature": "CodeCave",
+    "family": "Obfuscation",
+    "tags": ["cave", "code"]
+  },
+  {
+    "name": "Dynamic Unpacking",
+    "signature": "dynamic.unpacking",
+    "family": "Evasion",
+    "tags": ["unpack", "evasion"]
+  }
+]

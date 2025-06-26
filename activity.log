@@ -1,0 +1,44 @@
+[2025-06-26 09:05:45] Процесс запущен: python.exe (PID=9984), путь: C:\Users\LENOVO\PycharmProjects\antivirus\.venv\Scripts\python.exe, родитель: 27108
+[2025-06-26 09:05:45] Процесс запущен: conhost.exe (PID=26572), путь: C:\Windows\System32\conhost.exe, родитель: 9984
+[2025-06-26 09:05:45] Процесс запущен: python.exe (PID=16132), путь: C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\python.exe, родитель: 9984
+[2025-06-26 09:05:57] Процесс запущен: browser.exe (PID=42424), путь: C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe, родитель: 25120
+[2025-06-26 09:06:07] Процесс запущен: browser.exe (PID=15428), путь: C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe, родитель: 25120
+[2025-06-26 09:27:28] Процесс запущен: SearchProtocolHost.exe (PID=39220), путь: C:\Windows\System32\SearchProtocolHost.exe, родитель: 12380
+[2025-06-26 09:29:28] Процесс запущен: updater.exe (PID=17728), путь: C:\Program Files (x86)\Google\GoogleUpdater\138.0.7194.0\updater.exe, родитель: 1616
+[2025-06-26 09:29:28] Процесс запущен: updater.exe (PID=14432), путь: C:\Program Files (x86)\Google\GoogleUpdater\138.0.7194.0\updater.exe, родитель: 15652
+[2025-06-26 09:29:28] Процесс запущен: updater.exe (PID=15652), путь: C:\Program Files (x86)\Google\GoogleUpdater\138.0.7194.0\updater.exe, родитель: 3836
+[2025-06-26 09:29:28] Процесс запущен: updater.exe (PID=12200), путь: C:\Program Files (x86)\Google\GoogleUpdater\138.0.7194.0\updater.exe, родитель: 5132
+[2025-06-26 09:29:28] Процесс запущен: updater.exe (PID=5132), путь: C:\Program Files (x86)\Google\GoogleUpdater\138.0.7194.0\updater.exe, родитель: 1616
+[2025-06-26 09:29:28] Процесс запущен: updater.exe (PID=30744), путь: C:\Program Files (x86)\Google\GoogleUpdater\138.0.7194.0\updater.exe, родитель: 17728
+[2025-06-26 09:29:38] [ПОДОЗРИТЕЛЬНО] browser.exe (PID=4092) запущен из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
+[2025-06-26 09:29:42] [ПОДОЗРИТЕЛЬНО] browser.exe (PID=6772) запущен из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
+[2025-06-26 09:29:42] [ПОДОЗРИТЕЛЬНО] browser.exe (PID=20228) запущен из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
+[2025-06-26 09:30:43] [ПОДОЗРИТЕЛЬНО] browser.exe (PID=41712) запущен из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
+[2025-06-26 09:30:49] [ПОДОЗРИТЕЛЬНО] browser.exe (PID=4772) запущен из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
+[2025-06-26 09:30:53] [ПОДОЗРИТЕЛЬНО] browser.exe (PID=7112) запущен из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
+[2025-06-26 09:30:59] Процесс запущен: explorer.exe (PID=1912), путь: C:\Windows\explorer.exe, родитель: 1764
+[2025-06-26 09:30:59] [ПОДОЗРИТЕЛЬНО] browser.exe (PID=12876) запущен из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe
+[2025-06-26 09:35:00] [ПОДОЗРИТЕЛЬНО] browser.exe из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe (НЕ ПОДПИСАН)
+[2025-06-26 09:35:22] Процесс запущен: WerFault.exe (PID=30752), путь: C:\Windows\System32\WerFault.exe, родитель: 11744
+[2025-06-26 09:35:22] Процесс запущен: Y.Music.exe (PID=26964), путь: C:\Program Files\WindowsApps\A025C540.Yandex.Music_4.54.8517.0_x64__vfvw9svesycw6\Y.Music.exe, родитель: 38248
+[2025-06-26 09:35:22] Процесс запущен: svchost.exe (PID=11744), путь: C:\Windows\System32\svchost.exe, родитель: 1616
+[2025-06-26 09:35:28] Процесс запущен: svchost.exe (PID=6088), путь: C:\Windows\System32\svchost.exe, родитель: 1616
+[2025-06-26 09:35:28] Процесс запущен: sppsvc.exe (PID=34228), путь: C:\Windows\System32\sppsvc.exe, родитель: 1616
+[2025-06-26 09:35:34] Процесс запущен: RuntimeBroker.exe (PID=3232), путь: C:\Windows\System32\RuntimeBroker.exe, родитель: 1764
+[2025-06-26 09:35:34] Процесс запущен: taskhostw.exe (PID=28116), путь: C:\Windows\System32\taskhostw.exe, родитель: 3836
+[2025-06-26 09:36:19] [ПОДОЗРИТЕЛЬНО] browser.exe из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe (НЕ ПОДПИСАН)
+[2025-06-26 09:36:33] Процесс запущен: svchost.exe (PID=17304), путь: C:\Windows\System32\svchost.exe, родитель: 1616
+[2025-06-26 09:36:55] [ПОДОЗРИТЕЛЬНО] browser.exe из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe (НЕ ПОДПИСАН)
+[2025-06-26 09:42:26] [ПОДОЗРИТЕЛЬНО] browser.exe из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe (ПОДПИСАН: False, SHA256: 1f6127d367d8ab1be36ce77b0a7f10f4ed85782eeaf1d5de62a8cb924f8407be, МЕТКА: UNKNOWN)
+[2025-06-26 09:44:41] Процесс запущен: SearchProtocolHost.exe (PID=21568), путь: C:\Windows\System32\SearchProtocolHost.exe, родитель: 12380
+[2025-06-26 09:44:41] Процесс запущен: SearchFilterHost.exe (PID=2100), путь: C:\Windows\System32\SearchFilterHost.exe, родитель: 12380
+[2025-06-26 09:45:21] [ПОДОЗРИТЕЛЬНО] browser.exe из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe (ПОДПИСАН: False, SHA256: 1f6127d367d8ab1be36ce77b0a7f10f4ed85782eeaf1d5de62a8cb924f8407be, МЕТКА: UNKNOWN)
+[2025-06-26 09:45:39] Процесс запущен: RuntimeBroker.exe (PID=15592), путь: C:\Windows\System32\RuntimeBroker.exe, родитель: 1764
+[2025-06-26 09:45:39] Процесс запущен: svchost.exe (PID=24032), путь: C:\Windows\System32\svchost.exe, родитель: 1616
+[2025-06-26 09:45:39] Процесс запущен: sppsvc.exe (PID=42580), путь: C:\Windows\System32\sppsvc.exe, родитель: 1616
+[2025-06-26 09:45:39] Процесс запущен: MoUsoCoreWorker.exe (PID=15996), путь: C:\Windows\UUS\Packages\Preview\amd64\MoUsoCoreWorker.exe, родитель: 2804
+[2025-06-26 09:46:22] [ПОДОЗРИТЕЛЬНО] browser.exe из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe (ПОДПИСАН: False, SHA256: 1f6127d367d8ab1be36ce77b0a7f10f4ed85782eeaf1d5de62a8cb924f8407be, МЕТКА: UNKNOWN)
+[2025-06-26 09:46:34] Процесс запущен: CompatTelRunner.exe (PID=3772), путь: C:\Windows\System32\CompatTelRunner.exe, родитель: 16728
+[2025-06-26 17:58:25] [ПОДОЗРИТЕЛЬНО] browser.exe из C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe (ПОДПИСАН: False, SHA256: 1f6127d367d8ab1be36ce77b0a7f10f4ed85782eeaf1d5de62a8cb924f8407be, МЕТКА: UNKNOWN)
+[2025-06-26 17:58:25] [КАРАНТИН] C:\Users\LENOVO\AppData\Local\Yandex\YandexBrowser\Application\browser.exe скопирован в quarantine\browser.exe_20250626_175825.exe
+[2025-06-26 17:58:25] Не удалось обработать PID 5060: name 'virus_signatures' is not defined
